@@ -1,0 +1,18 @@
+{
+  "name": "tmgs-frogger",
+  "version": "2.0.0",
+  "description": "Frogger Slackbot, upgraded with workspace-aware OAuth, frogification history, stats, developer status, and safer operations.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.6.0",
+    "@slack/web-api": "^7.9.0",
+    "better-sqlite3": "^11.8.1",
+    "dotenv": "^16.4.7"
+  }
+}
