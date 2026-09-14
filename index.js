@@ -14,7 +14,8 @@ const CONFIG = {
   frogStatusEmoji: process.env.FROG_STATUS_EMOJI || ":frog:",
   devStatusText: process.env.DEV_STATUS_TEXT || "Frogger Dev :)",
   devStatusEmoji: process.env.DEV_STATUS_EMOJI || ":frog:",
-  devUserIds: new Set((process.env.DEV_USER_IDS || "").split(",").map(s => s.trim()).filter(Boolean)),
+  // TMG + Legin: the founding Frogger developers.
+  devUserIds: new Set((process.env.DEV_USER_IDS || "U0BT24U900H,U0AMEEP1540").split(",").map(s => s.trim()).filter(Boolean)),
   databasePath: process.env.FROG_DB_PATH || "frogger.sqlite3"
 };
 
